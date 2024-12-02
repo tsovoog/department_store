@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: rgba(22, 28, 45, 1);
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(244, 247, 250, 1);
+}
+.layout {
+  width: 1110px;
+  height: 1366px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+}
+/* header started here */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 84px;
+  background-color: white;
+}
+.headerSection {
+  position: absolute;
+  left: 25px;
+  right: 25px;
+  width: auto;
+  height: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  font-weight: bold;
+}
+.center {
+  display: flex;
+  gap: 29px;
+}
+.menu {
+  color: rgba(22, 28, 45, 1);
+}
+a {
+  text-decoration: none;
+}
+/* layout started here */
+.layout {
+  width: 1200px;
+  height: 1839px;
+  background-color: rgba(244, 247, 250, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* first title started here */
+.pricingTitle {
+  margin: 94px 0px 119px 0px;
+  width: 601px;
+  height: 202px;
+  display: flex;
+  gap: 44px;
+  flex-direction: column;
+  align-items: center;
+}
+.title1 {
+  font-size: 60px;
+  line-height: 65px;
+  letter-spacing: -2px;
+  width: 413px;
+  height: 65px;
+}
+.title2 {
+  width: 600px;
+  height: 93px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  text-align: center;
+  opacity: 0.7;
+}
+/* buttons started here */
+.buttons {
+  width: 1109px;
+  height: 604px;
+  display: flex;
+  gap: 31px;
+  margin-bottom: 115px;
+}
+.priceButton {
+  width: 349px;
+  height: 604px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(231, 233, 237, 1);
+  border-radius: 8px;
+  padding: 37px 0px 38px 49px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.standard {
+  width: auto;
+  height: 15px;
+  font-size: 13px;
+  line-height: 14.95px;
+  letter-spacing: 1.63px;
+  font-weight: 700;
+  font-family: Arial, Helvetica;
+  color: rgba(71, 59, 240, 1);
+}
+i {
+  width: 14px;
+  height: 12px;
+}
+.bill {
+  width: 100px;
+  height: 26px;
+  opacity: 0.7;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.checks {
+  height: 205px;
+  width: 251px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  text-align: left;
+}
+.check li {
+  width: 251px;
+  height: 29px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 29px;
+  letter-spacing: -0.2px;
+}
+.start {
+  width: 205px;
+  height: 59px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 8px;
+  background-color: rgba(71, 59, 240, 1);
+  color: white;
+  font-size: 17px;
+  border-style: none;
+}
+.start:hover {
+  background-color: rgba(71, 59, 240, 1);
+}
+.credit {
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.buttonsPrice {
+  width: 78px;
+  height: 65px;
+  display: flex;
+  color: rgba(22, 28, 45, 1);
+  align-items: flex-end;
+}
+.dollar {
+  font-size: 24px;
+}
+.Number {
+  font-size: 60px;
+}
+.month {
+  opacity: 70%;
+  font-size: 17px;
+}
+/* last title started here */
+.checkOur {
+  width: 1114px;
+  height: 565px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.LastTitle {
+  width: 611px;
+  height: 152px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 73px;
+}
+.titleCheck {
+  width: 405px;
+  height: 58px;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -1.8px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.title2Check {
+  width: 610px;
+  height: 69px;
+  opacity: 70%;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  text-align: center;
+}
+/* links started here */
+.linkPricing {
+  width: 1114px;
+  height: 380px;
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+.link {
+  width: 350px;
+  height: 135px;
+}
+.inf {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -0.2px;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+ul img {
+  width: 37px;
+  height: 37px;
+}
+.bold {
+  color: rgba(22, 28, 45, 1);
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  margin-bottom: 15px;
+}
+/* footer started here */
+footer {
+  width: 100vw;
+  height: 533px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 108px;
+}
+.menuList {
+  width: 100%;
+  height: 250px;
+  color: rgba(22, 28, 45, 1);
+  display: flex;
+  justify-content: space-around;
+}
+.listTitle {
+  opacity: 70%;
+  margin-bottom: 20px;
+}
+ol {
+  list-style: none;
+  font-size: 17px;
+  line-height: 40px;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+}
+ol li:hover {
+  color: rgba(71, 59, 240, 1);
+  font-weight: 700;
+  cursor: pointer;
+}
+.holboos {
+  width: 90%;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.logos {
+  display: flex;
+  gap: 30px;
+}

@@ -66,7 +66,7 @@ header {
   background-color: rgba(10, 13, 23, 1);
 }
 .heroImage {
-  background-image: url(./img/heroImage.png);
+  background-image: url(../img/heroImage.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -242,7 +242,7 @@ span {
 .firstSectionImage {
   width: 401px;
   height: 482px;
-  background-image: url(./img/1.png);
+  background-image: url(../img/1.png);
   background-position: center;
   margin: 140px 219px 148px 230px;
   border-radius: 10px;
@@ -316,7 +316,7 @@ a {
   width: 349px;
   height: 463px;
   border-radius: 10px;
-  background-image: url(./img/2.png);
+  background-image: url(../img/2.png);
   background-position: center;
   background-repeat: no-repeat;
   margin: 154px 231px 153px 0px;
@@ -328,7 +328,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(./img/BG.png);
+  background-image: url(../img/BG.png);
   color: rgba(255, 255, 255, 1);
 }
 .titleThird {
